@@ -101,7 +101,7 @@ An alternative usage is the hotkey (shift+f).
 
 ## License
 
-This project is licensed under the [BSD 3-Clause License (Revised)](https://tldrlegal.com/license/bsd-3-clause-license-(revised)). See the [LICENSE](./LICENSE) file for details.
+This project is licensed under the [BSD 3-Clause License (Revised)](https://tldrlegal.com/license/bsd-3-clause-license-(revised)). See the [LICENSE](./LICENSE.md) file for details.
 
 <!--  -->
 
