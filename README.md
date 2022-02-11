@@ -5,12 +5,12 @@ Void is a small "nopper" plugin for [IDA Pro](https://www.hex-rays.com/products/
 
 ## Requirements
 
-+ IDA 7.0
-+ Python 2.7
++ IDA 7.5
++ Python 3
 
 ## Installation
 
-Void is a cross-platform (Windows, macOS, Linux) Python 2 plugin and easy to install.
+Void is a cross-platform (Windows, macOS, Linux) Python 3 plugin and easy to install.
 
 * Download the latest [RELEASE](https://github.com/dove-zp/ida.plugin.void/releases).
 * From your disassembler's python console, run the following command to find its plugin directory:
@@ -85,6 +85,8 @@ An alternative usage is the hotkey (shift+f).
 
 ## Development History
 
++ 2021/JAN/08
+  + Updated to support IDA 7.5 SDK
 + 2020/SEP/22
   + Added ZEROing feature(s)
     + ASCII

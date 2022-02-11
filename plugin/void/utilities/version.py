@@ -2,7 +2,7 @@
 # coding=utf-8
 
 """
-brief:          void
+brief:          void - utilities - version
 author:         dove-zp
 contact:        https://github.com/dove-zp
 version:        2021/JAN/08
@@ -10,9 +10,8 @@ license:        BSD 3-Clause "New" or "Revised" License
 """
 
 try:
-    import os
-
-    from void import plugin
+    import idc
+    import idaapi
 except ImportError as e:
     raise e
 except Exception as e:
@@ -20,11 +19,10 @@ except Exception as e:
 
 
 # --------------------------------------------------------------------------------------------------
+# Version
 
 
-def PLUGIN_ENTRY():
-    return plugin.IDAPlugin()
-
-
-if __name__ == '__main__':
-    PLUGIN_ENTRY()
+def supported_version():
+    if idaapi.IDA_SDK_VERSION >= 750:
+        return True
+    return False

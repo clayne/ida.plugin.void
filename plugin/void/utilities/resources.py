@@ -2,7 +2,7 @@
 # coding=utf-8
 
 """
-brief:          void
+brief:          void - plugin - resources
 author:         dove-zp
 contact:        https://github.com/dove-zp
 version:        2021/JAN/08
@@ -12,7 +12,9 @@ license:        BSD 3-Clause "New" or "Revised" License
 try:
     import os
 
-    from void import plugin
+    from void import PLUGIN_DIR
+
+    from void.resources import settings
 except ImportError as e:
     raise e
 except Exception as e:
@@ -22,9 +24,9 @@ except Exception as e:
 # --------------------------------------------------------------------------------------------------
 
 
-def PLUGIN_ENTRY():
-    return plugin.IDAPlugin()
+def path(resource_name):
+    return os.path.join(PLUGIN_DIR, settings.PLUGIN_RESOURCES, resource_name)
 
 
-if __name__ == '__main__':
-    PLUGIN_ENTRY()
+def icon(icon_name):
+    return os.path.join(PLUGIN_DIR, settings.PLUGIN_RESOURCES_ICONS, icon_name)
