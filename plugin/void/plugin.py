@@ -3,8 +3,8 @@
 
 """
 brief:          void - plugin
-author:         deobfuscates
-contact:        https://github.com/deobfuscates
+author:         dove-zp
+contact:        https://github.com/dove-zp
 version:        2021/JAN/08
 license:        BSD 3-Clause "New" or "Revised" License
 """
