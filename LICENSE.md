@@ -1,4 +1,4 @@
-Copyright (c) 2020, [dove-zp](https://github.com/dove-zp)
+Copyright (c) 2021, [dove-zp](https://github.com/dove-zp)
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
