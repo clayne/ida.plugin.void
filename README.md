@@ -3,6 +3,8 @@
 
 Void is a small "nopper" plugin for [IDA Pro](https://www.hex-rays.com/products/ida/). The plugin creates NOP'd areas though simple convenient actions to relevant right click menus.
 
+![](https://i.imgur.com/vgsHJXw.png)
+
 ## Versions 
 
 * [IDA 7.0](https://github.com/dove-zp/ida.plugin.void/tree/7.0)
